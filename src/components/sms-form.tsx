@@ -42,7 +42,7 @@ class SMSForm extends Component<IPropsSMSForm> {
                                 </div>
                             </div>
                             <div className="col">
-                                <input className="col phonenumber" placeholder={formattedPlaceholder} onFocus={clearPhoneInput} type="text" />
+                                <input className="col phonenumber" placeholder={formattedPlaceholder} onFocus={clearPhoneInput} type="tel" />
                             </div>
                         </div>
                     </div>
