@@ -44,5 +44,8 @@
         "webfonts",
         "wingardium",
         "yh"
+    ],
+    "cSpell.ignoreWords": [
+        "ctdm"
     ]
 }
