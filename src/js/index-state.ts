@@ -1,4 +1,5 @@
 import axios, { AxiosRequestConfig } from 'axios';
+import { clickSendSMS } from '../analytics/gtm';
 
 /* Assets */
 import featureLogo1 from '../img/feature-1.png';
@@ -78,6 +79,8 @@ export default class IndexState {
                 }));
             },
             sendSMSTrial: async (idPhoneElement: number) => {
+
+                clickSendSMS();
 
                 const inputElement = document.querySelectorAll(".phonenumber")[idPhoneElement] as HTMLInputElement;
 
