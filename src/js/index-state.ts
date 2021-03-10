@@ -26,7 +26,7 @@ export default class IndexState {
 
         return {
             /* Variables */
-            navLinks: ["https://www.linkedin.com/in/gustavotoledosilva", "https://github.com/gustavotsilva/hedwigapp"],
+            navLinks: ["https://www.linkedin.com/in/gustavotoledosilva", "https://github.com/gustavotsilva/hedwig"],
             listCountryCodes: [
                 {code: "+1"     , flag: flagUS      , content: "+1"     , placeholder: "541-754-3010"}, 
                 {code: "+44"    , flag: flagUK      , content: "+44"    , placeholder: "7911-123456"},
