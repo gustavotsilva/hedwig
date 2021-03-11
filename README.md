@@ -1,21 +1,21 @@
-<img src="https://cdn.dribbble.com/users/113499/screenshots/11707904/media/e619b4269b37cc40fed0129dc028dcf5.png?compress=1&resize=1600x1200" align="right"
-     alt="owl hedwig picture" width="130" height="160" style="object-fit: cover; border-radius: 20px; margin-left: 30px; margin-top: 80px">
-
 # Owl Hedwig 🦉 [![Netlify Status](https://api.netlify.com/api/v1/badges/1a67664a-494b-42ea-9732-924d42e3ca55/deploy-status)](https://app.netlify.com/sites/hedwigapp/deploys)
+
+<img src="./public/readme-icon.png" align="right"
+     alt="owl hedwig picture" width="130" height="160">
 
 Owl Hedwig is a simple all-in-one project built with React and Typescript to send ongoing quotes and illustrations from Harry Potter for its fans by SMS for free. I manually curated its database, and its content was harvested from the best artists you can find on Behance, Pinterest and Dribble.
 
 If you are a big fan of Harry Potter and want to give it a try and share your feedback ❤️
 
-<div style="height: 15px"></div>
+<br>
 
-🪄 **Check it out:** [https://hedwig.app](https://hedwig.app)
+> 🪄 **Check it out:** [https://hedwig.app](https://hedwig.app)
 
-<div style="height: 15px"></div>
+<br>
 
 ### <strong>In a nutshell</strong>
 
-<div style="height: 15px"></div>
+<br>
 
 * **[Create React App](https://create-react-app.dev/)** - get our React project off the ground.
 * **[Netlify](https://www.netlify.com/)** - deployment for front (CI/CD) and backend services (FaaS with AWS lambda).
@@ -30,17 +30,13 @@ If you are a big fan of Harry Potter and want to give it a try and share your fe
 * **[Google Tag Manager](https://marketingplatform.google.com/intl/en_uk/about/tag-manager/)** - monitor the usage of our solution (GA 4.0 and Yandex Metrica).
 * **[Rebrandly](https://www.rebrandly.com/)** - branded short links to unsubscribe.
 
-<div style="height: 25px"></div>
-
-# Getting Started
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). If you want to learn more about it, I would recommend for you to do it before anything else. 🤓🔥
-
-<div style="height: 25px"></div>
+<br>
 
 # How it looks like
 
-<img src="https://www.dropbox.com/s/m4oofwww0op8cv0/preview.png?dl=1" style="margin-top: 10px; margin-bottom: 40px; border-radius: 20px; width: 100%"/>
+![Owl hedwig picture](./public/readme-preview.png)
+
+<br>
 
 # About me
 
