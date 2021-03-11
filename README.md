@@ -1,52 +1,47 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1a67664a-494b-42ea-9732-924d42e3ca55/deploy-status)](https://app.netlify.com/sites/hedwigapp/deploys)
+<img src="https://cdn.dribbble.com/users/113499/screenshots/11707904/media/e619b4269b37cc40fed0129dc028dcf5.png?compress=1&resize=1600x1200" align="right"
+     alt="owl hedwig picture" width="130" height="160" style="object-fit: cover; border-radius: 20px; margin-left: 30px; margin-top: 80px">
 
-# How to run test the functions locally
+# Owl Hedwig 🦉 [![Netlify Status](https://api.netlify.com/api/v1/badges/1a67664a-494b-42ea-9732-924d42e3ca55/deploy-status)](https://app.netlify.com/sites/hedwigapp/deploys)
 
-URL: http://localhost:9000/.netlify/functions/[endpoint]
+Owl Hedwig is a simple all-in-one project built with React and Typescript to send ongoing quotes and illustrations from Harry Potter for its fans by SMS for free. I manually curated its database, and its content was harvested from the best artists you can find on Behance, Pinterest and Dribble.
 
-# Getting Started with Create React App
+If you are a big fan of Harry Potter and want to give it a try and share your feedback ❤️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div style="height: 15px"></div>
 
-## Available Scripts
+🪄 **Check it out:** [https://hedwig.app](https://hedwig.app)
 
-In the project directory, you can run:
+<div style="height: 15px"></div>
 
-### `npm start`
+### <strong>In a nutshell</strong>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div style="height: 15px"></div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* **[Create React App](https://create-react-app.dev/)** - get our React project off the ground.
+* **[Netlify](https://www.netlify.com/)** - deployment for front (CI/CD) and backend services (FaaS with AWS lambda).
+* **[Github](https://github.com/)** - git repository and auto-deployment on Netlify.
+* **[Cloudflare](https://www.cloudflare.com/)** - CDN platform (plus... SSL, cache, DDoS protection, Latency reduction)
+* **[Typescript](https://www.typescriptlang.org/)** - vanilla JS superset both on front and backend development.
+* **[Twilio](https://www.twilio.com/)** - SMS sender at low cost and incredible speed.
+* **[MongoDB](https://www.mongodb.com/3)** - NoSQL storage facility.
+* **[EasyCron](https://www.easycron.com)** - call our endpoints every Tuesdays and Fridays.
+* **[UptimeRobot](https://uptimerobot.com/)** - let us know in case of suspicious activities.
+* **[Apilayer](https://apilayer.com/)** - to validate the phone numbers before sending the messages.
+* **[Google Tag Manager](https://marketingplatform.google.com/intl/en_uk/about/tag-manager/)** - monitor the usage of our solution (GA 4.0 and Yandex Metrica).
+* **[Rebrandly](https://www.rebrandly.com/)** - branded short links to unsubscribe.
 
-### `npm test`
+<div style="height: 25px"></div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Getting Started
 
-### `npm run build`
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). If you want to learn more about it, I would recommend for you to do it before anything else. 🤓🔥
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div style="height: 25px"></div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# How it looks like
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="https://www.dropbox.com/s/m4oofwww0op8cv0/preview.png?dl=1" style="margin-top: 10px; margin-bottom: 40px; border-radius: 20px; width: 100%"/>
 
-### `npm run eject`
+# About me
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+👍 Give me a shout on LinkedIn [Gustavo Silva](https://www.linkedin.com/in/gustavotoledosilva/).
