@@ -22,6 +22,8 @@ If you are a big fan of Harry Potter and want to give it a try and share your fe
 * **[Github](https://github.com/)** - git repository and auto-deployment on Netlify.
 * **[Cloudflare](https://www.cloudflare.com/)** - CDN platform (plus... SSL, cache, DDoS protection, Latency reduction)
 * **[Typescript](https://www.typescriptlang.org/)** - vanilla JS superset both on front and backend development.
+* **[Bootstrap 5.0](https://getbootstrap.com/)** - efficient solution for responsiveness.
+* **[Figma](https://www.figma.com)** - to design the platform and the high-fidelity prototype [check it out](https://www.figma.com/file/UgtmmAWKj3bnREjemiuCYL/Owl-Hedwig?node-id=0%3A1).
 * **[Twilio](https://www.twilio.com/)** - SMS sender at low cost and incredible speed.
 * **[MongoDB](https://www.mongodb.com/3)** - NoSQL storage facility.
 * **[EasyCron](https://www.easycron.com)** - call our endpoints every Tuesdays and Fridays.
