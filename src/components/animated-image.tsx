@@ -10,7 +10,7 @@ const AnimatedImage = () => (
                 <img src={harryIcon} alt="harry icon" />
             </div>
             <div className="row mt-3 mb-2">
-                <h2>Get your post every <span className="font-blue">Tuesdays</span> &#x26; <span className="font-blue">Fridays</span></h2>
+                <h2>Get your post <span className="d-block d-md-inline-block font-blue">every day</span></h2>
             </div>
             <p className="light">
                 Shhh... don't let Uncle Vernon know.

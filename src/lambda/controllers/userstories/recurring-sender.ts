@@ -4,11 +4,6 @@ import { sendRandomSMS } from '../managers/sender-manager';
 
 export const sendBatchMessages = async (): Promise<boolean> => {
 
-    //Only send messages on Tuesdays and Fridays
-    //const isDayToSendMessages = (dayOfWeek = new Date().getDay()) => (dayOfWeek !== 2 && dayOfWeek !== 5);
-
-    //if(!isDayToSendMessages()) return false;
-
     const dbUser = new DBUser();
 
     await dbUser.openConnection();
