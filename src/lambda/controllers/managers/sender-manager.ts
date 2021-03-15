@@ -38,7 +38,7 @@ const getUnsubscriptionLink = async (userHash: string) => "\n\nUnsubscribe: " + 
 
 const getRandomPicture = (currentList: string[] = []): string => {
     while(true) {
-        const random = Math.floor(((Math.random() * 1000) % 60) + 1);
+        const random = Math.floor(((Math.random() * 1000) % 100) + 1);
         const illustration = illustrationUrl(random);
         if(!currentList.includes(illustration)) return illustration;
     }

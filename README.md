@@ -26,7 +26,7 @@ If you are a big fan of Harry Potter and want to give it a try and share your fe
 * **[Figma](https://www.figma.com)** - to design the platform and the high-fidelity prototype [check it out](https://www.figma.com/file/UgtmmAWKj3bnREjemiuCYL/Owl-Hedwig?node-id=0%3A1).
 * **[Twilio](https://www.twilio.com/)** - SMS sender at low cost and incredible speed.
 * **[MongoDB](https://www.mongodb.com/3)** - NoSQL storage facility.
-* **[EasyCron](https://www.easycron.com)** - call our endpoints every Tuesdays and Fridays.
+* **[EasyCron](https://www.easycron.com)** - call our endpoints every day.
 * **[UptimeRobot](https://uptimerobot.com/)** - let us know in case of suspicious activities.
 * **[Apilayer](https://apilayer.com/)** - to validate the phone numbers before sending the messages.
 * **[Google Tag Manager](https://marketingplatform.google.com/intl/en_uk/about/tag-manager/)** - monitor the usage of our solution (GA 4.0 and Yandex Metrica).
@@ -42,4 +42,4 @@ If you are a big fan of Harry Potter and want to give it a try and share your fe
 
 # About me
 
-👍 Give me a shout on LinkedIn [Gustavo Silva](https://www.linkedin.com/in/gustavotoledosilva/).
+👍 Give me a shout on [Twitter](https://twitter.com/gustavotdsilva) or [LinkedIn](https://www.linkedin.com/in/gustavotoledosilva/).
