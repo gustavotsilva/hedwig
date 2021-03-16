@@ -52,7 +52,7 @@ export class Worker extends DBConnector {
             const result: Cursor<IUser> = await DBConnector.db
                 .db()
                 .collection('user')
-                .find({});
+                .find({ "unsubscribed": false });
 
             if (result === null) return [];
 
