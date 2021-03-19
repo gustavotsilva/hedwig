@@ -1,17 +1,15 @@
 import { ObjectId } from 'mongodb';
 import IDBModel, { generateHash, now } from './dbmodel';
 
-export default interface IUser extends IDBModel {
+export default interface IUserError extends IDBModel {
     phoneNumber: string;
-    unsubscribed: boolean;
 }
 
-export const generateUser = (): IUser => {
+export const generateUserError = (phoneNumber = ""): IUserError => {
     return {
-        phoneNumber: "",
-        unsubscribed: false,
+        phoneNumber: phoneNumber,
         hash: generateHash(),
         _id: new ObjectId(),
         dateCreated: now()
-    } as IUser;
-};
+    } as IUserError;
+}

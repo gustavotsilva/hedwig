@@ -19,6 +19,7 @@ export const generateMessage = (): IMessage => {
         isSent: true,
         listIllustration: [],
         hash: generateHash(),
-        _id: new ObjectId()
+        _id: new ObjectId(),
+        dateCreated: now()
     } as IMessage;
 };

@@ -3,6 +3,7 @@ import { ObjectId } from 'mongodb';
 export default interface IDBModel {
     _id: ObjectId;
     hash: string;
+    dateCreated: string;
 }
 
 export const generateHash = (length = 50): string => {
