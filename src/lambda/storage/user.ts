@@ -56,9 +56,7 @@ export class Worker extends DBConnector {
 
             if (result === null) return [];
 
-            const listUsers: IUser[] = [];
-
-            await result.forEach(element => listUsers.push(element));
+            const listUsers: IUser[] = await result.toArray();
 
             return listUsers;
 

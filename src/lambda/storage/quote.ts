@@ -14,19 +14,15 @@ export class Worker extends DBConnector {
                 .collection('quote')
                 .find({});
 
-            const length = await result.count();
+            const listQuotes: IQuote[] = await result.toArray();
+
+            const length = listQuotes.length;
 
             if (length === 0) return null;
 
-            let randomQuote: IQuote | null = null;
-            let index = 0;
-
             const randomIndex = Math.floor((Math.random() * 1000000) % length);
 
-            await result.forEach(quote => {
-                if(index === randomIndex) randomQuote = quote;
-                index++;
-            });
+            const randomQuote = listQuotes[randomIndex];
 
             return randomQuote;
 
