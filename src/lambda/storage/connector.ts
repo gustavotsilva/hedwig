@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb';
 import credentials from '../credentials/config';
 
-export default class DBConnector {
+export default abstract class DBConnector {
 
     static db: MongoClient | null;
     static openedConnections = 0;
